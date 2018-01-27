@@ -13,4 +13,4 @@ This is an urban traffic speed dataset which consists of 214 anonymous road segm
 (4) *speed*: the speed values with unit km/h.
 
 ## 3. Publication
-Xinyu Chen, Zhaocheng He, Jiawei  Wang, 2018. **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. *Transportation Research Part C: Emerging Technologies*, 86, 59-77. [pdf](https://www.sciencedirect.com/science/article/pii/S0968090X17302966)
+Xinyu Chen, Zhaocheng He, Jiawei  Wang, 2018. **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. *Transportation Research Part C: Emerging Technologies*, 86, 59-77. [Download PDF](https://www.sciencedirect.com/science/article/pii/S0968090X17302966)
