@@ -2,7 +2,7 @@
 ## 1. Data Description
 This is an urban traffic speed dataset which consists of 214 anonymous road segments within two months (i.e., from August 1, 2016 to September 30, 2016) at 10-minute interval, and the speed observations were collected from Guangzhou, China.
 ## 2. File Description
-### **speeddata.csv** - the traffic speed dataset (contains **1,855,589** speed observations). Note that, for the convenience, **speeddata.csv** is separated into two files (i.e., **speeddata_Aug.csv** & **speeddata_Sep.csv**) where **speeddata_Aug.csv** covers the total observations during August, 2016 and **speeddata_Sep.csv** covers the total observations during September, 2016, respectively.
+2.1 **speeddata.csv** - the traffic speed dataset (contains **1,855,589** speed observations). Note that, for the convenience, **speeddata.csv** is separated into two files (i.e., **speeddata_Aug.csv** & **speeddata_Sep.csv**) where **speeddata_Aug.csv** covers the total observations during August, 2016 and **speeddata_Sep.csv** covers the total observations during September, 2016, respectively.
 
 (1) *road_id*: a unique anonymous identifier for each road segment. As an example, 1 indicates the first road segment;
 
@@ -12,7 +12,7 @@ This is an urban traffic speed dataset which consists of 214 anonymous road segm
 
 (4) *speed*: the speed values with unit km/h.
 
-### **tensor.csv** - the third-order tensor in Matlab and it can be directly loaded. In detail, we have
+2.2 **tensor.csv** - the third-order tensor in Matlab and it can be directly loaded. In detail, we have
 
 (1) the length of its first dimension corresponding to road semgent is 214;
 
