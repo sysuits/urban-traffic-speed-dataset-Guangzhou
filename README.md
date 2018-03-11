@@ -2,7 +2,7 @@
 ## 1. Data Description
 This is an urban traffic speed dataset which consists of 214 anonymous road segments within two months (i.e., from August 1, 2016 to September 30, 2016) at 10-minute interval, and the speed observations were collected from Guangzhou, China.
 ## 2. File Description
-**speeddata.csv** - the traffic speed dataset (contains **1,855,589** speed observations). Note that, for the convenience, **speeddata.csv** is separated into two files (i.e., **speeddata_Aug.csv** & **speeddata_Sep.csv**) where **speeddata_Aug.csv** covers the total observations during August, 2016 and **speeddata_Sep.csv** covers the total observations during September, 2016, respectively.
+**speeddata.csv** - the traffic speed dataset (contains **1,855,589** speed observations). Note that, for the convenience, *speeddata.csv* is separated into two files (i.e., *speeddata_Aug.csv* & *speeddata_Sep.csv*) where *speeddata_Aug.csv* covers the total observations during August, 2016 and *speeddata_Sep.csv* covers the total observations during September, 2016, respectively.
 
 (1) *road_id*: a unique anonymous identifier for each road segment. As an example, 1 indicates the first road segment;
 
@@ -22,6 +22,8 @@ This is an urban traffic speed dataset which consists of 214 anonymous road segm
 (3) the length of third dimension corresponding to time window is 144;
 
 (4) the tensor entries is valued by traffic speed where 0 indicates the unobserved.
+
+The non-zero entries of this tensor is 1,855,589 and the total entries is 1,879,776. So, the missing rate of this tensor is originally given by 1.29%.
 
 ## 3. Publication
 Xinyu Chen, Zhaocheng He, Jiawei  Wang, 2018. **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. *Transportation Research Part C: Emerging Technologies*, 86, 59-77. [Download PDF](https://www.sciencedirect.com/science/article/pii/S0968090X17302966)
