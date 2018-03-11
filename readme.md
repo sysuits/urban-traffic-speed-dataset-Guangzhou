@@ -23,7 +23,7 @@ This is an urban traffic speed dataset which consists of 214 anonymous road segm
 
 (4) the tensor entries is valued by traffic speed where 0 indicates the unobserved.
 
-The non-zero entries of this tensor is 1,855,589 and the total entries is 1,879,776. So, the missing rate of this tensor is originally given by 1.29%.
+The number of non-zero entries of this tensor is 1,855,589 and the total entries is 1,879,776. So, the missing rate of this tensor is originally given by 1.29%.
 
 ## 3. Publication
 Xinyu Chen, Zhaocheng He, Jiawei  Wang, 2018. **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. *Transportation Research Part C: Emerging Technologies*, 86, 59-77. [Download PDF](https://www.sciencedirect.com/science/article/pii/S0968090X17302966)
