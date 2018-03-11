@@ -13,7 +13,7 @@ This is an urban traffic speed dataset which consists of 214 anonymous road segm
 (4) *speed*: the speed values with unit km/h.
 
 ---------------------------
-**tensor.csv** - the third-order tensor in Matlab and it can be directly loaded. In detail, we have
+**tensor.mat** - the third-order tensor in Matlab and it can be directly loaded. In detail, we have
 
 (1) the length of its first dimension corresponding to road semgent is 214;
 
