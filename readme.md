@@ -1,6 +1,6 @@
 # Urban Traffic Speed Dataset of Guangzhou, China
 ## 1. Data Description
-This is an urban traffic speed dataset which consists of 214 anonymous road segments within two months (i.e., from August 1, 2016 to September 30, 2016) at 10-minute interval, and the speed observations were collected from Guangzhou, China.
+This is an urban traffic speed dataset which consists of 214 anonymous road segments within two months (i.e., from August 1, 2016 to September 30, 2016) at 10-minute interval, and the speed observations were collected from Guangzhou, China. A detailed description and files of this dataset are also available at [Zenodo -- Urban Traffic Speed Dataset of Guangzhou, China](http://doi.org/10.5281/zenodo.1205229).
 ## 2. File Description
 **speeddata.csv** - the traffic speed dataset (contains **1,855,589** speed observations). Note that, for the convenience, *speeddata.csv* is separated into two files (i.e., *speeddata_Aug.csv* & *speeddata_Sep.csv*) where *speeddata_Aug.csv* covers the total observations during August, 2016 and *speeddata_Sep.csv* covers the total observations during September, 2016, respectively.
 
